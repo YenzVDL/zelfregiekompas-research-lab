@@ -1,0 +1,366 @@
+{
+  "evidence": "Real local Ollama and actual HTTP application endpoints; no fixtures",
+  "model": "qwen3:0.6b",
+  "connection": {
+    "available": true,
+    "address": "http://127.0.0.1:11434",
+    "version": "0.40.11",
+    "elapsed_seconds": 0.8378770999843255
+  },
+  "discovery_before": {
+    "available": true,
+    "models": [
+      {
+        "name": "qwen3:0.6b",
+        "model": "qwen3:0.6b",
+        "modified_at": "2026-10-26T13:16:19.28836+01:00",
+        "size": 522653767,
+        "digest": "7df6b6e09427a769808717c0a93cadc4ae99ed4eb8bf5ca557c90846becea435",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "qwen3",
+          "families": [
+            "qwen3"
+          ],
+          "parameter_size": "751.63M",
+          "quantization_level": "Q4_K_M",
+          "context_length": 40960,
+          "embedding_length": 1024,
+          "runner": "ggml"
+        },
+        "capabilities": [
+          "completion",
+          "tools",
+          "thinking"
+        ],
+        "model_info": {
+          "general.architecture": "qwen3",
+          "general.basename": "Qwen3",
+          "general.file_type": 15,
+          "general.license": "apache-2.0",
+          "general.parameter_count": 751632384,
+          "general.quantization_version": 2,
+          "general.size_label": "0.6B",
+          "general.type": "model",
+          "qwen3.attention.head_count": 16,
+          "qwen3.attention.head_count_kv": 8,
+          "qwen3.attention.key_length": 128,
+          "qwen3.attention.layer_norm_rms_epsilon": 1e-06,
+          "qwen3.attention.value_length": 128,
+          "qwen3.block_count": 28,
+          "qwen3.context_length": 40960,
+          "qwen3.embedding_length": 1024,
+          "qwen3.feed_forward_length": 3072,
+          "qwen3.rope.freq_base": 1000000,
+          "tokenizer.ggml.add_bos_token": false,
+          "tokenizer.ggml.bos_token_id": 151643,
+          "tokenizer.ggml.eos_token_id": 151645,
+          "tokenizer.ggml.merges": [],
+          "tokenizer.ggml.model": "gpt2",
+          "tokenizer.ggml.padding_token_id": 151643,
+          "tokenizer.ggml.pre": "qwen2",
+          "tokenizer.ggml.token_type": [],
+          "tokenizer.ggml.tokens": []
+        },
+        "parameter_provenance": "Ollama /api/tags details.parameter_size",
+        "locality": "local /api/show; no remote target"
+      }
+    ],
+    "manual_metadata": []
+  },
+  "explicit_install_events": [
+    {
+      "status": "pulling manifest"
+    },
+    {
+      "status": "pulling 7f4030143c1c",
+      "digest": "sha256:7f4030143c1c477224c5434f8272c662a8b042079a0a584f0a27a1684fe2e1fa",
+      "total": 522640096,
+      "completed": 522640096
+    },
+    {
+      "status": "pulling ae370d884f10",
+      "digest": "sha256:ae370d884f108d16e7cc8fd5259ebc5773a0afa6e078b11f4ed7e39a27e0dfc4",
+      "total": 1723,
+      "completed": 1723
+    },
+    {
+      "status": "pulling d18a5cc71b84",
+      "digest": "sha256:d18a5cc71b84bc4af394a31116bd3932b42241de70c77d2b76d69a314ec8aa12",
+      "total": 11338,
+      "completed": 11338
+    },
+    {
+      "status": "pulling cff3f395ef37",
+      "digest": "sha256:cff3f395ef3756ab63e58b0ad1b32bb6f802905cae1472e6a12034e4246fbbdb",
+      "total": 120,
+      "completed": 120
+    },
+    {
+      "status": "pulling b0830f4ff6a0",
+      "digest": "sha256:b0830f4ff6a0220cfd995455206353b0ed23c0aee865218b154b7a75087b4e55",
+      "total": 490,
+      "completed": 490
+    },
+    {
+      "status": "verifying sha256 digest"
+    },
+    {
+      "status": "writing manifest"
+    },
+    {
+      "status": "removing unused layers"
+    },
+    {
+      "status": "success"
+    },
+    {
+      "done": true,
+      "status": "Installed and verified locally",
+      "model": {
+        "name": "qwen3:0.6b",
+        "model": "qwen3:0.6b",
+        "modified_at": "2026-10-26T13:38:17.5908582+01:00",
+        "size": 522653767,
+        "digest": "7df6b6e09427a769808717c0a93cadc4ae99ed4eb8bf5ca557c90846becea435",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "qwen3",
+          "families": [
+            "qwen3"
+          ],
+          "parameter_size": "751.63M",
+          "quantization_level": "Q4_K_M",
+          "context_length": 40960,
+          "embedding_length": 1024,
+          "runner": "ggml"
+        },
+        "capabilities": [
+          "completion",
+          "tools",
+          "thinking"
+        ],
+        "model_info": {
+          "general.architecture": "qwen3",
+          "general.basename": "Qwen3",
+          "general.file_type": 15,
+          "general.license": "apache-2.0",
+          "general.parameter_count": 751632384,
+          "general.quantization_version": 2,
+          "general.size_label": "0.6B",
+          "general.type": "model",
+          "qwen3.attention.head_count": 16,
+          "qwen3.attention.head_count_kv": 8,
+          "qwen3.attention.key_length": 128,
+          "qwen3.attention.layer_norm_rms_epsilon": 1e-06,
+          "qwen3.attention.value_length": 128,
+          "qwen3.block_count": 28,
+          "qwen3.context_length": 40960,
+          "qwen3.embedding_length": 1024,
+          "qwen3.feed_forward_length": 3072,
+          "qwen3.rope.freq_base": 1000000,
+          "tokenizer.ggml.add_bos_token": false,
+          "tokenizer.ggml.bos_token_id": 151643,
+          "tokenizer.ggml.eos_token_id": 151645,
+          "tokenizer.ggml.merges": [],
+          "tokenizer.ggml.model": "gpt2",
+          "tokenizer.ggml.padding_token_id": 151643,
+          "tokenizer.ggml.pre": "qwen2",
+          "tokenizer.ggml.token_type": [],
+          "tokenizer.ggml.tokens": []
+        },
+        "parameter_provenance": "Ollama /api/tags details.parameter_size",
+        "locality": "local /api/show; no remote target"
+      }
+    }
+  ],
+  "inference": {
+    "http_status": 200,
+    "success": true,
+    "elapsed_seconds": 2.2560740999761038,
+    "response": "OK",
+    "model_metadata": {
+      "name": "qwen3:0.6b",
+      "model": "qwen3:0.6b",
+      "modified_at": "2026-10-26T13:38:17.5908582+01:00",
+      "size": 522653767,
+      "digest": "7df6b6e09427a769808717c0a93cadc4ae99ed4eb8bf5ca557c90846becea435",
+      "details": {
+        "parent_model": "",
+        "format": "gguf",
+        "family": "qwen3",
+        "families": [
+          "qwen3"
+        ],
+        "parameter_size": "751.63M",
+        "quantization_level": "Q4_K_M",
+        "context_length": 40960,
+        "embedding_length": 1024,
+        "runner": "ggml"
+      },
+      "capabilities": [
+        "completion",
+        "tools",
+        "thinking"
+      ],
+      "model_info": {
+        "general.architecture": "qwen3",
+        "general.basename": "Qwen3",
+        "general.file_type": 15,
+        "general.license": "apache-2.0",
+        "general.parameter_count": 751632384,
+        "general.quantization_version": 2,
+        "general.size_label": "0.6B",
+        "general.type": "model",
+        "qwen3.attention.head_count": 16,
+        "qwen3.attention.head_count_kv": 8,
+        "qwen3.attention.key_length": 128,
+        "qwen3.attention.layer_norm_rms_epsilon": 1e-06,
+        "qwen3.attention.value_length": 128,
+        "qwen3.block_count": 28,
+        "qwen3.context_length": 40960,
+        "qwen3.embedding_length": 1024,
+        "qwen3.feed_forward_length": 3072,
+        "qwen3.rope.freq_base": 1000000,
+        "tokenizer.ggml.add_bos_token": false,
+        "tokenizer.ggml.bos_token_id": 151643,
+        "tokenizer.ggml.eos_token_id": 151645,
+        "tokenizer.ggml.merges": [],
+        "tokenizer.ggml.model": "gpt2",
+        "tokenizer.ggml.padding_token_id": 151643,
+        "tokenizer.ggml.pre": "qwen2",
+        "tokenizer.ggml.token_type": [],
+        "tokenizer.ggml.tokens": []
+      },
+      "parameter_provenance": "Ollama /api/tags details.parameter_size",
+      "locality": "local /api/show; no remote target"
+    },
+    "runtime": {
+      "model": "qwen3:0.6b",
+      "created_at": "2026-10-26T12:38:19.9528253Z",
+      "done": true,
+      "done_reason": "stop",
+      "total_duration": 34832300,
+      "load_duration": 9796800,
+      "prompt_eval_count": 21,
+      "prompt_eval_cached_count": 20,
+      "prompt_eval_duration": 11770000,
+      "eval_count": 2,
+      "eval_duration": 6922000
+    },
+    "effective_settings": {
+      "options": {
+        "temperature": 0,
+        "num_predict": 16,
+        "num_ctx": 2048
+      },
+      "stream": false,
+      "think": false,
+      "thinking_default": true,
+      "keep_alive": "5m",
+      "timeout_seconds": 60
+    },
+    "diagnostics": {
+      "address": "http://127.0.0.1:11434",
+      "model": "qwen3:0.6b",
+      "effective_settings": {
+        "options": {
+          "temperature": 0,
+          "num_predict": 16,
+          "num_ctx": 2048
+        },
+        "stream": false,
+        "think": false,
+        "thinking_default": true,
+        "keep_alive": "5m",
+        "timeout_seconds": 60
+      },
+      "http_status": 200,
+      "response_excerpt": "{\"model\":\"qwen3:0.6b\",\"created_at\":\"2026-10-26T12:38:19.9528253Z\",\"response\":\"OK\",\"done\":true,\"done_reason\":\"stop\",\"context\":[151644,872,198,20841,448,1172,25,10402,608,2152,5854,766,151645,198,151644,77091,198,151667,271,151668,271,3925],\"total_duration\":34832300,\"load_duration\":9796800,\"prompt_eval_count\":21,\"prompt_eval_cached_count\":20,\"prompt_eval_duration\":11770000,\"eval_count\":2,\"eval_duration\":6922000}",
+      "thinking_characters": 0,
+      "done_reason": "stop",
+      "runtime": {
+        "model": "qwen3:0.6b",
+        "created_at": "2026-10-26T12:38:19.9528253Z",
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 34832300,
+        "load_duration": 9796800,
+        "prompt_eval_count": 21,
+        "prompt_eval_cached_count": 20,
+        "prompt_eval_duration": 11770000,
+        "eval_count": 2,
+        "eval_duration": 6922000
+      }
+    }
+  },
+  "discovery_after": {
+    "available": true,
+    "models": [
+      {
+        "name": "qwen3:0.6b",
+        "model": "qwen3:0.6b",
+        "modified_at": "2026-10-26T13:38:17.5908582+01:00",
+        "size": 522653767,
+        "digest": "7df6b6e09427a769808717c0a93cadc4ae99ed4eb8bf5ca557c90846becea435",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "qwen3",
+          "families": [
+            "qwen3"
+          ],
+          "parameter_size": "751.63M",
+          "quantization_level": "Q4_K_M",
+          "context_length": 40960,
+          "embedding_length": 1024,
+          "runner": "ggml"
+        },
+        "capabilities": [
+          "completion",
+          "tools",
+          "thinking"
+        ],
+        "model_info": {
+          "general.architecture": "qwen3",
+          "general.basename": "Qwen3",
+          "general.file_type": 15,
+          "general.license": "apache-2.0",
+          "general.parameter_count": 751632384,
+          "general.quantization_version": 2,
+          "general.size_label": "0.6B",
+          "general.type": "model",
+          "qwen3.attention.head_count": 16,
+          "qwen3.attention.head_count_kv": 8,
+          "qwen3.attention.key_length": 128,
+          "qwen3.attention.layer_norm_rms_epsilon": 1e-06,
+          "qwen3.attention.value_length": 128,
+          "qwen3.block_count": 28,
+          "qwen3.context_length": 40960,
+          "qwen3.embedding_length": 1024,
+          "qwen3.feed_forward_length": 3072,
+          "qwen3.rope.freq_base": 1000000,
+          "tokenizer.ggml.add_bos_token": false,
+          "tokenizer.ggml.bos_token_id": 151643,
+          "tokenizer.ggml.eos_token_id": 151645,
+          "tokenizer.ggml.merges": [],
+          "tokenizer.ggml.model": "gpt2",
+          "tokenizer.ggml.padding_token_id": 151643,
+          "tokenizer.ggml.pre": "qwen2",
+          "tokenizer.ggml.token_type": [],
+          "tokenizer.ggml.tokens": []
+        },
+        "parameter_provenance": "Ollama /api/tags details.parameter_size",
+        "locality": "local /api/show; no remote target"
+      }
+    ],
+    "manual_metadata": []
+  },
+  "catalog": {
+    "last_refresh_attempt": "2026-10-26T12:29:11.820569+00:00",
+    "scope": "Curated local text-generation variants from Qwen 2.5, Qwen 3, Llama 3.2 and Gemma 3. This is not the complete Ollama library. Metadata refresh checks these exact tags only.",
+    "total": 12
+  }
+}

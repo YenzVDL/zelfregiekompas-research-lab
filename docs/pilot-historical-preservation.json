@@ -1,0 +1,7 @@
+{
+  "backup": "data/research-before-pilot-fixes-20261026.sqlite3",
+  "original_record_count": 549,
+  "all_original_records_unchanged": true,
+  "pilot_outputs_unchanged": 210,
+  "notice": "Live browser runs use separate verification databases; source database is unchanged."
+}

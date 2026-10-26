@@ -1,0 +1,6 @@
+{
+  "inputs.learning_goal": "Goal",
+  "inputs.progress": "Progress",
+  "inputs.student_note": "Note",
+  "tags": "Categories"
+}

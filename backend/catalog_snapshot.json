@@ -1,0 +1,283 @@
+{
+  "id": "model_catalog",
+  "entries": [
+    {
+      "name": "qwen3:0.6b",
+      "family": "Qwen",
+      "generation": "3",
+      "capabilities": [
+        "completion",
+        "tools",
+        "thinking"
+      ],
+      "source_url": "https://ollama.com/library/qwen3:0.6b",
+      "parameter_size": "752M",
+      "quantization": "Q4_K_M",
+      "size_bytes": 523000000,
+      "reported_size": "523MB",
+      "source_digest_prefix": "7df6b6e09427",
+      "retrieved_at": "2026-10-26T12:29:09.534469+00:00",
+      "metadata_source": "Ollama public exact-tag page / Details (reported rounded values)",
+      "last_error": null
+    },
+    {
+      "name": "qwen3:0.6b-q8_0",
+      "family": "Qwen",
+      "generation": "3",
+      "capabilities": [
+        "completion",
+        "tools",
+        "thinking"
+      ],
+      "source_url": "https://ollama.com/library/qwen3:0.6b-q8_0",
+      "parameter_size": "752M",
+      "quantization": "Q8_0",
+      "size_bytes": 832000000,
+      "reported_size": "832MB",
+      "source_digest_prefix": "f6358994266d",
+      "retrieved_at": "2026-10-26T12:29:09.498141+00:00",
+      "metadata_source": "Ollama public exact-tag page / Details (reported rounded values)",
+      "last_error": null
+    },
+    {
+      "name": "qwen3:0.6b-fp16",
+      "family": "Qwen",
+      "generation": "3",
+      "capabilities": [
+        "completion",
+        "tools",
+        "thinking"
+      ],
+      "source_url": "https://ollama.com/library/qwen3:0.6b-fp16",
+      "parameter_size": "752M",
+      "quantization": "F16",
+      "size_bytes": 1500000000,
+      "reported_size": "1.5GB",
+      "source_digest_prefix": "626c9556a80f",
+      "retrieved_at": "2026-10-26T12:29:09.855697+00:00",
+      "metadata_source": "Ollama public exact-tag page / Details (reported rounded values)",
+      "last_error": null
+    },
+    {
+      "name": "qwen3:1.7b",
+      "family": "Qwen",
+      "generation": "3",
+      "capabilities": [
+        "completion",
+        "tools",
+        "thinking"
+      ],
+      "source_url": "https://ollama.com/library/qwen3:1.7b",
+      "parameter_size": "2.03B",
+      "quantization": "Q4_K_M",
+      "size_bytes": 1400000000,
+      "reported_size": "1.4GB",
+      "source_digest_prefix": "8f68893c685c",
+      "retrieved_at": "2026-10-26T12:29:09.471195+00:00",
+      "metadata_source": "Ollama public exact-tag page / Details (reported rounded values)",
+      "last_error": null
+    },
+    {
+      "name": "qwen3:4b",
+      "family": "Qwen",
+      "generation": "3",
+      "capabilities": [
+        "completion",
+        "tools",
+        "thinking"
+      ],
+      "source_url": "https://ollama.com/library/qwen3:4b",
+      "parameter_size": "4.02B",
+      "quantization": "Q4_K_M",
+      "size_bytes": 2500000000,
+      "reported_size": "2.5GB",
+      "source_digest_prefix": "359d7dd4bcda",
+      "retrieved_at": "2026-10-26T12:29:10.668735+00:00",
+      "metadata_source": "Ollama public exact-tag page / Details (reported rounded values)",
+      "last_error": null
+    },
+    {
+      "name": "qwen2.5:0.5b",
+      "family": "Qwen",
+      "generation": "2.5",
+      "capabilities": [
+        "completion",
+        "tools"
+      ],
+      "source_url": "https://ollama.com/library/qwen2.5:0.5b",
+      "parameter_size": "494M",
+      "quantization": "Q4_K_M",
+      "size_bytes": 398000000,
+      "reported_size": "398MB",
+      "source_digest_prefix": "a8b0c5157701",
+      "retrieved_at": "2026-10-26T12:29:10.297871+00:00",
+      "metadata_source": "Ollama public exact-tag page / Details (reported rounded values)",
+      "last_error": null
+    },
+    {
+      "name": "qwen2.5:1.5b",
+      "family": "Qwen",
+      "generation": "2.5",
+      "capabilities": [
+        "completion",
+        "tools"
+      ],
+      "source_url": "https://ollama.com/library/qwen2.5:1.5b",
+      "parameter_size": "1.54B",
+      "quantization": "Q4_K_M",
+      "size_bytes": 986000000,
+      "reported_size": "986MB",
+      "source_digest_prefix": "65ec06548149",
+      "retrieved_at": "2026-10-26T12:29:10.353700+00:00",
+      "metadata_source": "Ollama public exact-tag page / Details (reported rounded values)",
+      "last_error": null
+    },
+    {
+      "name": "qwen2.5:3b",
+      "family": "Qwen",
+      "generation": "2.5",
+      "capabilities": [
+        "completion",
+        "tools"
+      ],
+      "source_url": "https://ollama.com/library/qwen2.5:3b",
+      "parameter_size": "3.09B",
+      "quantization": "Q4_K_M",
+      "size_bytes": 1900000000,
+      "reported_size": "1.9GB",
+      "source_digest_prefix": "357c53fb659c",
+      "retrieved_at": "2026-10-26T12:29:11.034662+00:00",
+      "metadata_source": "Ollama public exact-tag page / Details (reported rounded values)",
+      "last_error": null
+    },
+    {
+      "name": "llama3.2:1b",
+      "family": "Llama",
+      "generation": "3.2",
+      "capabilities": [
+        "completion",
+        "tools"
+      ],
+      "source_url": "https://ollama.com/library/llama3.2:1b",
+      "parameter_size": "1.24B",
+      "quantization": "Q8_0",
+      "size_bytes": 1300000000,
+      "reported_size": "1.3GB",
+      "source_digest_prefix": "baf6a787fdff",
+      "retrieved_at": "2026-10-26T12:29:11.134416+00:00",
+      "metadata_source": "Ollama public exact-tag page / Details (reported rounded values)",
+      "last_error": null
+    },
+    {
+      "name": "llama3.2:3b",
+      "family": "Llama",
+      "generation": "3.2",
+      "capabilities": [
+        "completion",
+        "tools"
+      ],
+      "source_url": "https://ollama.com/library/llama3.2:3b",
+      "parameter_size": "3.21B",
+      "quantization": "Q4_K_M",
+      "size_bytes": 2000000000,
+      "reported_size": "2.0GB",
+      "source_digest_prefix": "a80c4f17acd5",
+      "retrieved_at": "2026-10-26T12:29:11.129831+00:00",
+      "metadata_source": "Ollama public exact-tag page / Details (reported rounded values)",
+      "last_error": null
+    },
+    {
+      "name": "gemma3:1b",
+      "family": "Gemma",
+      "generation": "3",
+      "capabilities": [
+        "completion"
+      ],
+      "source_url": "https://ollama.com/library/gemma3:1b",
+      "parameter_size": "1000M",
+      "quantization": "Q4_K_M",
+      "size_bytes": 806000000,
+      "reported_size": "806MB",
+      "source_digest_prefix": "97558784bdc9",
+      "retrieved_at": "2026-10-26T12:29:11.494253+00:00",
+      "metadata_source": "Ollama public exact-tag page / Details (reported rounded values)",
+      "last_error": null
+    },
+    {
+      "name": "gemma3:4b",
+      "family": "Gemma",
+      "generation": "3",
+      "capabilities": [
+        "completion",
+        "vision"
+      ],
+      "source_url": "https://ollama.com/library/gemma3:4b",
+      "parameter_size": "3.88B",
+      "quantization": "Q4_K_M",
+      "size_bytes": 3400000000,
+      "reported_size": "3.4GB",
+      "source_digest_prefix": "68ceab7e468a",
+      "retrieved_at": "2026-10-26T12:29:11.819995+00:00",
+      "metadata_source": "Ollama public exact-tag page / Details (reported rounded values)",
+      "last_error": null
+    },
+    {
+      "name": "qwen3:4b-instruct",
+      "family": "Qwen",
+      "generation": "3 Instruct 2507",
+      "capabilities": [
+        "completion",
+        "tools"
+      ],
+      "variant": "instruct/non-thinking",
+      "capability_sources": [
+        "https://ollama.com/library/qwen3:4b-instruct",
+        "https://huggingface.co/Qwen/Qwen3-4B-Instruct-2507"
+      ],
+      "source_url": "https://ollama.com/library/qwen3:4b-instruct",
+      "parameter_size": "4.02B",
+      "quantization": "Q4_K_M",
+      "size_bytes": 2500000000,
+      "reported_size": "2.5GB",
+      "source_digest_prefix": "0edcdef34593",
+      "retrieved_at": "2026-10-26T20:28:29.415796+00:00",
+      "metadata_source": "Ollama public exact-tag page / Details (reported rounded values)",
+      "last_error": null
+    }
+  ],
+  "last_refresh_attempt": "2026-10-26T12:29:11.820569+00:00",
+  "refresh_errors": 0,
+  "scope": "Curated local text-generation variants from Qwen 2.5, Qwen 3, Llama 3.2 and Gemma 3. This is not the complete Ollama library. Metadata refresh checks these exact tags only.",
+  "source": "https://ollama.com/library",
+  "offline_browsing": true,
+  "total": 12,
+  "facets": {
+    "family": [
+      "Gemma",
+      "Llama",
+      "Qwen"
+    ],
+    "generation": [
+      "2.5",
+      "3",
+      "3.2"
+    ],
+    "parameter_size": [
+      "1.24B",
+      "1.54B",
+      "1000M",
+      "2.03B",
+      "3.09B",
+      "3.21B",
+      "3.88B",
+      "4.02B",
+      "494M",
+      "752M"
+    ],
+    "quantization": [
+      "F16",
+      "Q4_K_M",
+      "Q8_0"
+    ]
+  }
+}

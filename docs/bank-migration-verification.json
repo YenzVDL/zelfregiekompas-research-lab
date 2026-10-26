@@ -1,0 +1,9 @@
+{
+  "backup": "data\\research-before-banks-20261026-162245.sqlite3",
+  "legacy_questions": 12,
+  "question_ids_versions_and_fields_preserved": true,
+  "historical_snapshots_jobs_reviews_unchanged": true,
+  "bank_ids": [
+    "bank_legacy_default"
+  ]
+}

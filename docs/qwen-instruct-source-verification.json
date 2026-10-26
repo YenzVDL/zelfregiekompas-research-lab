@@ -1,0 +1,23 @@
+{
+  "name": "qwen3:4b-instruct",
+  "family": "Qwen",
+  "generation": "3 Instruct 2507",
+  "capabilities": [
+    "completion",
+    "tools"
+  ],
+  "variant": "instruct/non-thinking",
+  "capability_sources": [
+    "https://ollama.com/library/qwen3:4b-instruct",
+    "https://huggingface.co/Qwen/Qwen3-4B-Instruct-2507"
+  ],
+  "source_url": "https://ollama.com/library/qwen3:4b-instruct",
+  "parameter_size": "4.02B",
+  "quantization": "Q4_K_M",
+  "size_bytes": 2500000000,
+  "reported_size": "2.5GB",
+  "source_digest_prefix": "0edcdef34593",
+  "retrieved_at": "2026-10-26T20:28:29.415796+00:00",
+  "metadata_source": "Ollama public exact-tag page / Details (reported rounded values)",
+  "last_error": null
+}

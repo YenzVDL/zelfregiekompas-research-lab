@@ -1,0 +1,41 @@
+[
+  {
+    "text": "What would you like to reflect on about this learning activity?",
+    "tags": [
+      "general",
+      "agency"
+    ],
+    "conditions": {},
+    "priority": 0,
+    "origin": "Demonstration starter suggestion; unvalidated; requires human review"
+  },
+  {
+    "text": "What, if anything, would help you understand your progress in this activity?",
+    "tags": [
+      "progress",
+      "unknown"
+    ],
+    "conditions": {
+      "missing": [
+        "progress"
+      ]
+    },
+    "priority": 10,
+    "origin": "Demonstration starter suggestion; unvalidated; requires human review"
+  },
+  {
+    "text": "How did your approach to the activity relate to your learning goal?",
+    "tags": [
+      "goal",
+      "strategy"
+    ],
+    "conditions": {
+      "present": [
+        "learning_goal",
+        "planned_activity"
+      ]
+    },
+    "priority": 5,
+    "origin": "Demonstration starter suggestion; unvalidated; requires human review"
+  }
+]

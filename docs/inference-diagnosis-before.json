@@ -1,0 +1,61 @@
+{
+  "application_before": {
+    "http_status": 503,
+    "body": {
+      "success": false,
+      "detail": "Inference completed with an empty response; inspect model capabilities and token budget",
+      "kind": "provider_error",
+      "partial_text": "",
+      "elapsed_seconds": 4.812149200006388
+    },
+    "wall_seconds": 4.817310800019186
+  },
+  "locality": {
+    "remote_model": null,
+    "remote_host": null,
+    "capabilities": [
+      "completion",
+      "tools",
+      "thinking"
+    ],
+    "thinking": {
+      "values": [
+        false,
+        true
+      ],
+      "default": true
+    }
+  },
+  "previous_test_payload": {
+    "payload": {
+      "model": "qwen3:0.6b",
+      "system": "Respond briefly.",
+      "prompt": "Reply with the word ready.",
+      "stream": true,
+      "keep_alive": "5m",
+      "options": {
+        "temperature": 0,
+        "num_predict": 32,
+        "num_ctx": 2048
+      }
+    },
+    "status": 200,
+    "elapsed_seconds": 0.13840110000455752,
+    "raw_response": "{\"model\":\"qwen3:0.6b\",\"created_at\":\"2026-10-26T12:26:48.8925353Z\",\"response\":\"\",\"done\":false}\n{\"model\":\"qwen3:0.6b\",\"created_at\":\"2026-10-26T12:26:48.8962435Z\",\"response\":\"\",\"done\":false}\n{\"model\":\"qwen3:0.6b\",\"created_at\":\"2026-10-26T12:26:48.9003605Z\",\"response\":\"\",\"thinking\":\"Okay\",\"done\":false}\n{\"model\":\"qwen3:0.6b\",\"created_at\":\"2026-10-26T12:26:48.9043268Z\",\"response\":\"\",\"thinking\":\",\",\"done\":false}\n{\"model\":\"qwen3:0.6b\",\"created_at\":\"2026-10-26T12:26:48.9090599Z\",\"response\":\"\",\"thinking\":\" the\",\"done\":false}\n{\"model\":\"qwen3:0.6b\",\"created_at\":\"2026-10-26T12:26:48.9125726Z\",\"response\":\"\",\"thinking\":\" user\",\"done\":false}\n{\"model\":\"qwen3:0.6b\",\"created_at\":\"2026-10-26T12:26:48.9172708Z\",\"response\":\"\",\"thinking\":\" wants\",\"done\":false}\n{\"model\":\"qwen3:0.6b\",\"created_at\":\"2026-10-26T12:26:48.9214544Z\",\"response\":\"\",\"thinking\":\" me\",\"done\":false}\n{\"model\":\"qwen3:0.6b\",\"created_at\":\"2026-10-26T12:26:48.9249627Z\",\"response\":\"\",\"thinking\":\" to\",\"done\":false}\n{\"model\":\"qwen3:0.6b\",\"created_at\":\"2026-10-26T12:26:48.9290706Z\",\"response\":\"\",\"thinking\":\" reply\",\"done\":false}\n{\"model\":\"qwen3:0.6b\",\"created_at\":\"2026-10-26T12:26:48.9338385Z\",\"response\":\"\",\"thinking\":\" with\",\"done\":false}\n{\"model\":\"qwen3:0.6b\",\"created_at\":\"2026-10-26T12:26:48.9379934Z\",\"response\":\"\",\"thinking\":\" the\",\"done\":false}\n{\"model\":\"qwen3:0.6b\",\"created_at\":\"2026-10-26T12:26:48.9415076Z\",\"response\":\"\",\"thinking\":\" word\",\"done\":false}\n{\"model\":\"qwen3:0.6b\",\"created_at\":\"2026-10-26T12:26:48.9461383Z\",\"response\":\"\",\"thinking\":\" \\\"\",\"done\":false}\n{\"model\":\"qwen3:0.6b\",\"created_at\":\"2026-10-26T12:26:48.9496474Z\",\"response\":\"\",\"thinking\":\"ready\",\"done\":false}\n{\"model\":\"qwen3:0.6b\",\"created_at\":\"2026-10-26T12:26:48.953802Z\",\"response\":\"\",\"thinking\":\".\\\"\",\"done\":false}\n{\"model\":\"qwen3:0.6b\",\"created_at\":\"2026-10-26T12:26:48.9575458Z\",\"response\":\"\",\"thinking\":\" Let\",\"done\":false}\n{\"model\":\"qwen3:0.6b\",\"created_at\":\"2026-10-26T12:26:48.9613049Z\",\"response\":\"\",\"thinking\":\" me\",\"done\":false}\n{\"model\":\"qwen3:0.6b\",\"created_at\":\"2026-10-26T12:26:48.9650099Z\",\"response\":\"\",\"thinking\":\" check\",\"done\":false}\n{\"model\":\"qwen3:0.6b\",\"created_at\":\"2026-10-26T12:26:48.9687192Z\",\"response\":\"\",\"thinking\":\" the\",\"done\":false}\n{\"model\":\"qwen3:0.6b\",\"created_at\":\"2026-10-26T12:26:48.9724926Z\",\"response\":\"\",\"thinking\":\" context\",\"done\":false}\n{\"model\":\"qwen3:0.6b\",\"created_at\":\"2026-10-26T12:26:48.9762897Z\",\"response\":\"\",\"thinking\":\".\",\"done\":false}\n{\"model\":\"qwen3:0.6b\",\"created_at\":\"2026-10-26T12:26:48.9803082Z\",\"response\":\"\",\"thinking\":\" They\",\"done\":false}\n{\"model\":\"qwen3:0.6b\",\"created_at\":\"2026-10-26T12:26:48.9840686Z\",\"response\":\"\",\"thinking\":\" mentioned\",\"done\":false}\n{\"model\":\"qwen3:0.6b\",\"created_at\":\"2026-10-26T12:26:48.9878177Z\",\"response\":\"\",\"thinking\":\" a\",\"done\":false}\n{\"model\":\"qwen3:0.6b\",\"created_at\":\"2026-10-26T12:26:48.9915823Z\",\"response\":\"\",\"thinking\":\" previous\",\"done\":false}\n{\"model\":\"qwen3:0.6b\",\"created_at\":\"2026-10-26T12:26:48.99531Z\",\"response\":\"\",\"thinking\":\" message\",\"done\":false}\n{\"model\":\"qwen3:0.6b\",\"created_at\":\"2026-10-26T12:26:48.9990368Z\",\"response\":\"\",\"thinking\":\" where\",\"done\":false}\n{\"model\":\"qwen3:0.6b\",\"created_at\":\"2026-10-26T12:26:49.0027454Z\",\"response\":\"\",\"thinking\":\" they\",\"done\":false}\n{\"model\":\"qwen3:0.6b\",\"created_at\":\"2026-10-26T12:26:49.0064953Z\",\"response\":\"\",\"thinking\":\" asked\",\"done\":false}\n{\"model\":\"qwen3:0.6b\",\"created_at\":\"2026-10-26T12:26:49.0101999Z\",\"response\":\"\",\"thinking\":\" for\",\"done\":false}\n{\"model\":\"qwen3:0.6b\",\"created_at\":\"2026-10-26T12:26:49.0139012Z\",\"response\":\"\",\"thinking\":\" something\",\"done\":false}\n{\"model\":\"qwen3:0.6b\",\"created_at\":\"2026-10-26T12:26:49.0139012Z\",\"response\":\"\",\"done\":true,\"done_reason\":\"length\",\"context\":[151644,8948,271,65354,26753,13,151645,198,151644,872,198,20841,448,279,3409,5527,13,608,26865,151645,198,151644,77091,198,151667,198,32313,11,279,1196,6801,752,311,9851,448,279,3409,330,2307,1189,6771,752,1779,279,2266,13,2379,9733,264,3681,1943,1380,807,4588,369,2494],\"total_duration\":136284400,\"load_duration\":5176300,\"prompt_eval_count\":24,\"prompt_eval_cached_count\":23,\"prompt_eval_duration\":4330000,\"eval_count\":32,\"eval_duration\":121603000}\n"
+  },
+  "direct_no_thinking": {
+    "payload": {
+      "model": "qwen3:0.6b",
+      "prompt": "Reply with only: OK",
+      "think": false,
+      "stream": false,
+      "options": {
+        "num_predict": 16,
+        "num_ctx": 2048
+      }
+    },
+    "status": 200,
+    "elapsed_seconds": 0.03457509999861941,
+    "raw_response": "{\"model\":\"qwen3:0.6b\",\"created_at\":\"2026-10-26T12:26:49.0486079Z\",\"response\":\"OK\",\"done\":true,\"done_reason\":\"stop\",\"context\":[151644,872,198,20841,448,1172,25,10402,608,2152,5854,766,151645,198,151644,77091,198,151667,271,151668,271,3925],\"total_duration\":32451000,\"load_duration\":5177600,\"prompt_eval_count\":21,\"prompt_eval_cached_count\":1,\"prompt_eval_duration\":12129000,\"eval_count\":2,\"eval_duration\":8510000}"
+  }
+}
